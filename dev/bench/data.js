@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1697819705615,
+  "lastUpdate": 1701030913618,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -28253,6 +28253,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 35363,
             "range": "± 41",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sean.fried@gmail.com",
+            "name": "noxxxxxious",
+            "username": "noxxxxxious"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "16acf8eb9a24f695146482be3be22eee14085657",
+          "message": "Fix typos left from previous reactive system in router docs (#647)\n\n* Update Router example to use non-referenced ReadSignal\r\n\r\nRerendered docs\r\n\r\n* Update both router examples to no longer use references",
+          "timestamp": "2023-11-26T20:32:24Z",
+          "tree_id": "37ab7ac7610c0ec7a2b6b5cd02b1f743d2285b6d",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/16acf8eb9a24f695146482be3be22eee14085657"
+        },
+        "date": 1701030912804,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 41142,
+            "range": "± 1400",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 122496,
+            "range": "± 2062",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 14804,
+            "range": "± 935",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 20743,
+            "range": "± 49852",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 1364,
+            "range": "± 133",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 226463,
+            "range": "± 33977",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 737,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 24169,
+            "range": "± 107",
             "unit": "ns/iter"
           }
         ]
