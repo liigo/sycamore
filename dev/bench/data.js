@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1701030913618,
+  "lastUpdate": 1701561831065,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -28325,6 +28325,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 24169,
             "range": "± 107",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a7bec19acfca9e15d5c64a0b264b1b896d5ef745",
+          "message": "Refactor view! by extracting parsing logic from codegen into a new crate (#649)\n\n* Add sycamore-view-parser crate\r\n\r\n* Add sycamore_macro::view2 which uses sycamore-view-parser\r\n\r\n* Fix parser bug\r\n\r\n* Remove old macro implementation\r\n\r\n* Fix a few more parser bugs\r\n\r\n* Fix final codegen bugs\r\n\r\n* Satisfy clippy\r\n\r\n* Update UI tests and fix some diagnostics\r\n\r\n* Remove node! macro\r\n\r\n* Improve span for children and dangerously_set_inner_html cannot both be set error message\r\n\r\n* Add extra UI test case for parse error\r\n\r\n* Remove unnecessary derive\r\n\r\n* Add UI test for `bind` directive",
+          "timestamp": "2023-12-03T00:01:10Z",
+          "tree_id": "9081e1810469cfbf00a3a8743122c8bdaed06618",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/a7bec19acfca9e15d5c64a0b264b1b896d5ef745"
+        },
+        "date": 1701561830290,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 41417,
+            "range": "± 1072",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 124187,
+            "range": "± 1550",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 15267,
+            "range": "± 1441",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 19519,
+            "range": "± 31629",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 1323,
+            "range": "± 172",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 218090,
+            "range": "± 43017",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 742,
+            "range": "± 25",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 24921,
+            "range": "± 71",
             "unit": "ns/iter"
           }
         ]
