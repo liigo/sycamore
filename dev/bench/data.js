@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706806544945,
+  "lastUpdate": 1709888092213,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -28469,6 +28469,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 23828,
             "range": "± 225",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "34ttrweoewiwe28@gmail.com",
+            "name": "mikihiro",
+            "username": "Hmikihiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "34d582ba5aa7d54f839d051dc417b16f9c14da9c",
+          "message": "Add current page highlight in website navigation (#660)\n\n* Add underline and bold to navigation\r\n\r\n* cargo fix & cargo clippy\r\n\r\n* remove <Option>\r\n\r\n* rename to SidebarCurrent\r\n\r\n* remove unused_dependencies gloo\r\n\r\n* cargo fix\r\n\r\n* Update website/src/header.rs\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>\r\n\r\n* Update website/src/main.rs\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>\r\n\r\n* Update website/src/main.rs\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>\r\n\r\n* Update website/src/main.rs\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>\r\n\r\n* Update website/src/main.rs\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>\r\n\r\n* Update website/src/main.rs\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>\r\n\r\n* Update website/src/main.rs\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>\r\n\r\n* Update website/src/sidebar.rs\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>\r\n\r\n---------\r\n\r\nCo-authored-by: Luke <37006668+lukechu10@users.noreply.github.com>",
+          "timestamp": "2024-03-08T08:52:17Z",
+          "tree_id": "35a97d397e179ad880726c06ec99c0dc4052d522",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/34d582ba5aa7d54f839d051dc417b16f9c14da9c"
+        },
+        "date": 1709888091286,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 33309,
+            "range": "± 809",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 108824,
+            "range": "± 8459",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 12667,
+            "range": "± 869",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 19046,
+            "range": "± 28835",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 922,
+            "range": "± 143",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 212064,
+            "range": "± 71965",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 705,
+            "range": "± 34",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 24054,
+            "range": "± 103",
             "unit": "ns/iter"
           }
         ]
