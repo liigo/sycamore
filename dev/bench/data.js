@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1709888092213,
+  "lastUpdate": 1710719665842,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -28541,6 +28541,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 24054,
             "range": "± 103",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "34ttrweoewiwe28@gmail.com",
+            "name": "mikihiro",
+            "username": "Hmikihiro"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0c5638c089176fa245cc91068b5ff277e495780a",
+          "message": "Temporary fix for website book broken navigation (#661)\n\n* Reproduce without \"content::Content()\"\r\n\r\n* move cached_sidebar_data area.\r\n\r\n* cargo clippy\r\n\r\n* cargo clippy\r\n\r\n* cargo clippy",
+          "timestamp": "2024-03-17T16:51:46-07:00",
+          "tree_id": "fa05c695e2b9559867129e68ce8c66f854f5349b",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/0c5638c089176fa245cc91068b5ff277e495780a"
+        },
+        "date": 1710719664350,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 33348,
+            "range": "± 689",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 110254,
+            "range": "± 3337",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 12929,
+            "range": "± 626",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 19300,
+            "range": "± 31510",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 1140,
+            "range": "± 248",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 214363,
+            "range": "± 62118",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 705,
+            "range": "± 11",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 23964,
+            "range": "± 56",
             "unit": "ns/iter"
           }
         ]
