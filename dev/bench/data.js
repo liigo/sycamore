@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710719665842,
+  "lastUpdate": 1710720344953,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -28613,6 +28613,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 23964,
             "range": "± 56",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "583c3d46a686003f96333a1df092a37b44aad922",
+          "message": "Update MSVC to 1.73.0 (#663)\n\n* Update MSVC to 1.73.0\r\n\r\n* Fix clippy",
+          "timestamp": "2024-03-17T17:03:10-07:00",
+          "tree_id": "4d168dc47612247e81a4d28f0fb42c602a2ff500",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/583c3d46a686003f96333a1df092a37b44aad922"
+        },
+        "date": 1710720344148,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 33315,
+            "range": "± 626",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 111091,
+            "range": "± 2435",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 12744,
+            "range": "± 716",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 20782,
+            "range": "± 28515",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 953,
+            "range": "± 158",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 210360,
+            "range": "± 74734",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 714,
+            "range": "± 15",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 23904,
+            "range": "± 46",
             "unit": "ns/iter"
           }
         ]
