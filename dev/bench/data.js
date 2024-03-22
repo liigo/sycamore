@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1710722068120,
+  "lastUpdate": 1711128918901,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -28829,6 +28829,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 23834,
             "range": "± 99",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7140c12293ab1db441375627c0a1be092a44136c",
+          "message": "Maintenance: fix all the new clippy warnings (#666)\n\n* Relax trait bounds for map_{keyed, index}\r\n\r\n* Remove useless import\r\n\r\n* Fix clippy warnings",
+          "timestamp": "2024-03-22T10:32:36-07:00",
+          "tree_id": "b87ee11cc2502abd8c331ab68ba005dcd583a0c4",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/7140c12293ab1db441375627c0a1be092a44136c"
+        },
+        "date": 1711128917939,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 33000,
+            "range": "± 761",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 108884,
+            "range": "± 2491",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 12416,
+            "range": "± 40342",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 20082,
+            "range": "± 31562",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 926,
+            "range": "± 165",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 213453,
+            "range": "± 111904",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 713,
+            "range": "± 29",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 23475,
+            "range": "± 61",
             "unit": "ns/iter"
           }
         ]
