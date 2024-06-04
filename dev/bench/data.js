@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1712119366342,
+  "lastUpdate": 1717515593921,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -29045,6 +29045,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 22864,
             "range": "± 266",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jasoncameron.all@gmail.com",
+            "name": "Jason Cameron",
+            "username": "JasonLovesDoggo"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc658d15842869f190095d4abb748aeb75e605f1",
+          "message": "Change API in http-request example as old API got taken down (#674)\n\n* Replace CountAPI as it got taken down\r\n\r\n* Replace CountAPI as it got taken down",
+          "timestamp": "2024-06-04T16:37:13+01:00",
+          "tree_id": "87f7d828758f0da3d08ba4694c2becef77011a5a",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/bc658d15842869f190095d4abb748aeb75e605f1"
+        },
+        "date": 1717515592582,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 33094,
+            "range": "± 616",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 108380,
+            "range": "± 2993",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 12890,
+            "range": "± 715",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 19223,
+            "range": "± 32041",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 951,
+            "range": "± 162",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 214462,
+            "range": "± 158427",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 716,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 23088,
+            "range": "± 203",
             "unit": "ns/iter"
           }
         ]
