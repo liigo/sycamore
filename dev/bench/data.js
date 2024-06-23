@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1717515593921,
+  "lastUpdate": 1719148047422,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -29117,6 +29117,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 23088,
             "range": "± 203",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "90356a7851d5222eecbd04a2a5b606ee4663d1a7",
+          "message": "Bump braces from 3.0.2 to 3.0.3 in /website (#675)\n\nBumps [braces](https://github.com/micromatch/braces) from 3.0.2 to 3.0.3.\r\n- [Changelog](https://github.com/micromatch/braces/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/micromatch/braces/compare/3.0.2...3.0.3)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: braces\r\n  dependency-type: indirect\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2024-06-23T14:04:51+01:00",
+          "tree_id": "e91fffbd396528ad9b9ac2d33a4817c2950dc3d2",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/90356a7851d5222eecbd04a2a5b606ee4663d1a7"
+        },
+        "date": 1719148046533,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 32559,
+            "range": "± 783",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 108427,
+            "range": "± 2465",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 12594,
+            "range": "± 39416",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 19640,
+            "range": "± 29458",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 919,
+            "range": "± 166",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 211037,
+            "range": "± 78932",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 682,
+            "range": "± 42",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 23189,
+            "range": "± 114",
             "unit": "ns/iter"
           }
         ]
