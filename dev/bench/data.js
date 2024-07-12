@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1719148047422,
+  "lastUpdate": 1720754690719,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -29189,6 +29189,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 23189,
             "range": "± 114",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mtshr319@gmail.com",
+            "name": "mtshr",
+            "username": "mtshr"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b5ce9d57a23ede25a8fa1615b3cb07e3aa29fd3b",
+          "message": "Rename the tag type alias in proc macro to solve warning (#677)",
+          "timestamp": "2024-07-11T20:22:10-07:00",
+          "tree_id": "9315cc6f12d51960578beb1d7848a81ae60052fe",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/b5ce9d57a23ede25a8fa1615b3cb07e3aa29fd3b"
+        },
+        "date": 1720754690072,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 32208,
+            "range": "± 1454",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 108323,
+            "range": "± 2486",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 13529,
+            "range": "± 41209",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 18998,
+            "range": "± 28534",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 968,
+            "range": "± 171",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 211909,
+            "range": "± 72898",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 673,
+            "range": "± 2",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 23384,
+            "range": "± 179",
             "unit": "ns/iter"
           }
         ]
