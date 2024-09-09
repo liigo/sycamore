@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720754690719,
+  "lastUpdate": 1725875687572,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -29261,6 +29261,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 23384,
             "range": "± 179",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ac114a6860e701e44df506829c6c78fc75edb064",
+          "message": "View Backend v2! (Attempt 2) (#679)\n\n* Add sycamore-web2 crate\r\n\r\nCopy pasted from https://github.com/lukechu10/sycamore-web2\r\n\r\n* Move things from sycamore-core to sycamore-web2\r\n\r\n* wip\r\n\r\n* Support attributes in macro\r\n\r\n* wip\r\n\r\n* Add support for props\r\n\r\n* Add support for bind\r\n\r\n* Replace sycamore-web with sycamore-web2\r\n\r\n* Nuke the old builder API\r\n\r\n* Remove attribute spread support from components\r\n\r\nWill add it back later\r\n\r\n* Remove a lot of things from sycamore crate\r\n\r\n* Start porting some examples and router\r\n\r\n* Update remaining examples\r\n\r\n* Add on_mount to sycamore-web\r\n\r\n* wip\r\n\r\n* Make the website compile\r\n\r\n* Fix warnings\r\n\r\n* Add window and document utility functions\r\n\r\n* Add some logging utility functions\r\n\r\n* Fix sycamore-web doc tests\r\n\r\n* Use window and document functions exported from sycamore\r\n\r\n* Remove `hydrate` feature flag (included by default)\r\n\r\n* Move ssr tests\r\n\r\n* Add suspense feature to sycamore-web\r\n\r\n* wip migrate tests\r\n\r\n* Fix some warnings\r\n\r\n* wip dummy-crate\r\n\r\n* Mostly finish SSR mode\r\n\r\n* Add create_effect_initial\r\n\r\nThis was removed all the way back in Sycamore v0.6! However, it turns\r\nout that it is very useful after all so it's back now.\r\n\r\n* Relax FnMut to FnOnce for create_effect_initial\r\n\r\n* DomNode initial implementation\r\n\r\n* Finish DomNode methods\r\n\r\n* Compiles!\r\n\r\n* Hello world works!\r\n\r\n* Counter works!\r\n\r\n* Move `.map()` to `ReadSignal` instead of `Signal`\r\n\r\n* Run initial effect in outer scope\r\n\r\n* Implement iteration again\r\n\r\n* Fix router\r\n\r\n* Cleanup some tests\r\n\r\n* wip\r\n\r\n* Hydration part 1\r\n\r\n* Fix hydration\r\n\r\n* NoSsr and NoHydrate\r\n\r\n* Fix docs and intra-doc links\r\n\r\n* Small changes\r\n\r\n* Update action for js-framework-bench\r\n\r\n* Reorganisation\r\n\r\n* Suspense works\r\n\r\n* Fix sycamore-web tests\r\n\r\n* Fix more sycamore-web tests, remove render_to_string_await_suspense\r\n\r\n* Fix some more tests\r\n\r\n* Fix web tests and a few bugs while at it\r\n\r\n* Implement use_stable_counter\r\n\r\n* Store root node in `Root`\r\n\r\n* Add test for use_stable_counter\r\n\r\n* Fix create_root not running function in root scope.\r\n\r\n* Implement async event handlers\r\n\r\n* Remove UI test for attribute props\r\n\r\n* Update MSRV to 1.81.0 and update UI tests\r\n\r\n* Remove remaining attribute spread tests\r\n\r\n* Quick pass of updating the docs\r\n\r\nThere will be a full docs rewrite before the final 0.9 release so this\r\nwill do for now.\r\n\r\n* Add missing cfg guard\r\n\r\n* Update benchmarks\r\n\r\n* Portal fix dynamic view\r\n\r\n* Remove debug message (Oops!)\r\n\r\n* Update migration guide\r\n\r\n* Fix portal again",
+          "timestamp": "2024-09-09T11:52:02+02:00",
+          "tree_id": "80e690e21c313cc38f3f11f835962ae494cb75aa",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/ac114a6860e701e44df506829c6c78fc75edb064"
+        },
+        "date": 1725875686643,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 32311,
+            "range": "± 7824",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 115487,
+            "range": "± 3192",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 13473,
+            "range": "± 962",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 19496,
+            "range": "± 30236",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 1052,
+            "range": "± 268",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 204559,
+            "range": "± 69571",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1124,
+            "range": "± 36",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 20324,
+            "range": "± 487",
             "unit": "ns/iter"
           }
         ]
