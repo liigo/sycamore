@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725894199002,
+  "lastUpdate": 1725909639459,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -29909,6 +29909,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 20173,
             "range": "± 186",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c849c572fcb95d6ba47d94d8d34229a21a72b443",
+          "message": "Make `ViewHtmlNode` methods use `Cow<'static, str>` instead of `&'static str` (#688)\n\nMake some ViewHtmlNode methods use Cow<str> instead of &str\r\n\r\nfixup: cargo fmt",
+          "timestamp": "2024-09-09T21:17:56+02:00",
+          "tree_id": "c2499b2eed26550b553e63b34610309d3b855d4a",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/c849c572fcb95d6ba47d94d8d34229a21a72b443"
+        },
+        "date": 1725909638734,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 32294,
+            "range": "± 522",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 106013,
+            "range": "± 1224",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 13295,
+            "range": "± 1243",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 19860,
+            "range": "± 33351",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 1295,
+            "range": "± 426",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 204652,
+            "range": "± 70647",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1121,
+            "range": "± 4",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 20271,
+            "range": "± 1029",
             "unit": "ns/iter"
           }
         ]
