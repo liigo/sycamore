@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726041808841,
+  "lastUpdate": 1726078186585,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -30269,6 +30269,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 20326,
             "range": "± 246",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7e1b09f95ea907575e65ac199460287080045fc4",
+          "message": "Remove `nom` dependency and replace with hand written parser (#691)\n\n* Remove `nom` dependency and replace with hand written parser\r\n\r\n* Update UI tests\r\n\r\n* cargo fmt",
+          "timestamp": "2024-09-11T20:07:02+02:00",
+          "tree_id": "64bf2a73ec88cffff94c32504824a0f8ba3cd08f",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/7e1b09f95ea907575e65ac199460287080045fc4"
+        },
+        "date": 1726078185262,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 32378,
+            "range": "± 1212",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 106232,
+            "range": "± 4697",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 12966,
+            "range": "± 1006",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 18929,
+            "range": "± 28095",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 1264,
+            "range": "± 221",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 206079,
+            "range": "± 62318",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1100,
+            "range": "± 33",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 20029,
+            "range": "± 146",
             "unit": "ns/iter"
           }
         ]
