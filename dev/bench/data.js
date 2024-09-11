@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725911735470,
+  "lastUpdate": 1726041808841,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -30197,6 +30197,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 20011,
             "range": "± 100",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ba34877bf5a0606fcd28ac33ff152dca5443d7ec",
+          "message": "Fix `NoHydrate` should render if not hydrating (#690)\n\nFix NoHydrate should render after hydration on client side",
+          "timestamp": "2024-09-11T10:00:44+02:00",
+          "tree_id": "e6148dcd21b2d7c854a6128a67d354aa5c8afae3",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/ba34877bf5a0606fcd28ac33ff152dca5443d7ec"
+        },
+        "date": 1726041808052,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 32365,
+            "range": "± 646",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 106621,
+            "range": "± 1533",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 12885,
+            "range": "± 1192",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 18906,
+            "range": "± 29977",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 1682,
+            "range": "± 371",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 207246,
+            "range": "± 91886",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1124,
+            "range": "± 9",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 20326,
+            "range": "± 246",
             "unit": "ns/iter"
           }
         ]
