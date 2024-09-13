@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726132187850,
+  "lastUpdate": 1726225153333,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -30557,6 +30557,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 20096,
             "range": "± 61",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b9a10ca4ffe82a0ad0aada30a6705e4690545960",
+          "message": "Reimplement attribute passthrough, without `attr:xyz`! (#694)\n\n* Move all element attributes into traits\r\n\r\nThis allows other structs to implement these traits and thus passthorugh\r\nthe attributes\r\n\r\n* Add some doc comments\r\n\r\n* Attributes struct\r\n\r\n* Add macro support for spread\r\n\r\n* Initial support for passthrough of plain attributes\r\n\r\n* Simply IntoHtmlNode -> AsHtmlNode\r\n\r\n* Passthrough non plain attributes as well\r\n\r\n* Tweak example\r\n\r\n* Update UI tests",
+          "timestamp": "2024-09-13T12:56:36+02:00",
+          "tree_id": "24164e997cf6f46d6b423fa72da9bfcf46431203",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/b9a10ca4ffe82a0ad0aada30a6705e4690545960"
+        },
+        "date": 1726225152024,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 32501,
+            "range": "± 1280",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 106934,
+            "range": "± 2512",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 13008,
+            "range": "± 1324",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 19123,
+            "range": "± 29156",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 1242,
+            "range": "± 297",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 210495,
+            "range": "± 130534",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1110,
+            "range": "± 6",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 20237,
+            "range": "± 282",
             "unit": "ns/iter"
           }
         ]
