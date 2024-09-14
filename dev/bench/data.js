@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726225153333,
+  "lastUpdate": 1726335918910,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -30629,6 +30629,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 20237,
             "range": "± 282",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5a206310ba4728da8204c0cd059972d36932de00",
+          "message": "Fix suspense rendering async shell during fallback (#695)\n\n* Move get_nodes_between into mod utils\r\n\r\n* Fix suspense not working because dynamic view is unmounted\r\n\r\n* Only render fallback on SSR",
+          "timestamp": "2024-09-14T19:42:41+02:00",
+          "tree_id": "8b51d2f9434e144433f769924d84421480c0b1a8",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/5a206310ba4728da8204c0cd059972d36932de00"
+        },
+        "date": 1726335917552,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 32349,
+            "range": "± 1759",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 107501,
+            "range": "± 3868",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 13006,
+            "range": "± 1271",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 19292,
+            "range": "± 27761",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 910,
+            "range": "± 163",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 203076,
+            "range": "± 67975",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1132,
+            "range": "± 6",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 19639,
+            "range": "± 77",
             "unit": "ns/iter"
           }
         ]
