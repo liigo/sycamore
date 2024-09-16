@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726514944932,
+  "lastUpdate": 1726515229310,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -30773,6 +30773,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 21954,
             "range": "± 287",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4db8780b8fb90ceaa6bb7fb353d273b0be7000ca",
+          "message": "Remove Gitpod (#697)\n\nRemove gitpod",
+          "timestamp": "2024-09-16T21:31:09+02:00",
+          "tree_id": "c293c69d7f88d5ed0afe1e7c05323ee284a7266b",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/4db8780b8fb90ceaa6bb7fb353d273b0be7000ca"
+        },
+        "date": 1726515228592,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 32433,
+            "range": "± 1816",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 106466,
+            "range": "± 1746",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 12844,
+            "range": "± 1512",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 18838,
+            "range": "± 30754",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 1106,
+            "range": "± 221",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 205108,
+            "range": "± 68245",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1116,
+            "range": "± 21",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 21546,
+            "range": "± 235",
             "unit": "ns/iter"
           }
         ]
