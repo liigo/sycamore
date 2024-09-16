@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726335918910,
+  "lastUpdate": 1726514944932,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -30701,6 +30701,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 19639,
             "range": "± 77",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6c3cea22d8bdeaeca06ccbe0876db8112ccdc0f2",
+          "message": "SSR Streaming (#696)\n\n* Support SsrMode::Sync\r\n\r\n* render_to_string_await_suspense\r\n\r\n* Set buffer size to 5 (for now)\r\n\r\n* Streaming maybe works?\r\n\r\n* SSR Streaming demo\r\n\r\n* Fix warning\r\n\r\n* Do not propagate suspense boundaries outwards. This fixes nested suspense.\r\n\r\n* Fix inner suspense resolving before outer\r\n\r\n* Reduce HTML bundle size\r\n\r\n* Fix clippy\r\n\r\n* Fix warnings on wasm32-unknown-unknown\r\n\r\n* Hydration support (part 1)\r\n\r\n* WIP\r\n\r\n* Add suspense key to hydration key\r\n\r\n* WIP\r\n\r\n* Hydrate streamed HTML\r\n\r\n* Add demo of hydrating suspensed content\r\n\r\n* Fix tests\r\n\r\n* Add docs and doctests\r\n\r\n* cargo fmt\r\n\r\n* Fix keyed tests\r\n\r\n* Fix indexed tests\r\n\r\n* Fix WASM tests",
+          "timestamp": "2024-09-16T21:26:17+02:00",
+          "tree_id": "58d5bd4544440546fb026e893cdee884c92b59c8",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/6c3cea22d8bdeaeca06ccbe0876db8112ccdc0f2"
+        },
+        "date": 1726514943598,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 32179,
+            "range": "± 1334",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 107365,
+            "range": "± 3761",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 13041,
+            "range": "± 1484",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 18823,
+            "range": "± 32028",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 932,
+            "range": "± 170",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 205799,
+            "range": "± 59484",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1047,
+            "range": "± 8",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 21954,
+            "range": "± 287",
             "unit": "ns/iter"
           }
         ]
