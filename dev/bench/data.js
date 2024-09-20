@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726516096480,
+  "lastUpdate": 1726838504153,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -30917,6 +30917,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 22860,
             "range": "± 1450",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5763938eb34a090d4cd89db30835c0bd1b91d173",
+          "message": "Fix router on different pathname and hash triggers hard refresh (#700)\n\nFix router different pathname and hash trigger hard refresh",
+          "timestamp": "2024-09-20T15:18:54+02:00",
+          "tree_id": "31e469f5639f948fae11ddc5911d8691d8bd47ed",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/5763938eb34a090d4cd89db30835c0bd1b91d173"
+        },
+        "date": 1726838502784,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 32777,
+            "range": "± 998",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 108178,
+            "range": "± 1199",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 13034,
+            "range": "± 1412",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 19052,
+            "range": "± 31770",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 1691,
+            "range": "± 360",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 217755,
+            "range": "± 70616",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1065,
+            "range": "± 6",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 21682,
+            "range": "± 290",
             "unit": "ns/iter"
           }
         ]
