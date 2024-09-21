@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726838504153,
+  "lastUpdate": 1726931543161,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -30989,6 +30989,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 21682,
             "range": "± 290",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d2b25c97eaf3a605f0cdfbe98fc7c09fcb578aba",
+          "message": "Fix suspense should create context in global scope (#701)\n\nCreate suspense context in global scope",
+          "timestamp": "2024-09-21T17:09:32+02:00",
+          "tree_id": "05faf1ca1819f857e8378fb134fb1481330b3761",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/d2b25c97eaf3a605f0cdfbe98fc7c09fcb578aba"
+        },
+        "date": 1726931542370,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 32501,
+            "range": "± 741",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 107466,
+            "range": "± 1674",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 13226,
+            "range": "± 1613",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 19550,
+            "range": "± 33481",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 1174,
+            "range": "± 273",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 206725,
+            "range": "± 58548",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1056,
+            "range": "± 9",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 21142,
+            "range": "± 202",
             "unit": "ns/iter"
           }
         ]
