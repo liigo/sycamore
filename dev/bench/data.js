@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727465165139,
+  "lastUpdate": 1727706485551,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -31205,6 +31205,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 21440,
             "range": "± 120",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kromgart@proton.me",
+            "name": "Roman Melnik",
+            "username": "Kromgart"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bb4388363ac4e93f2aa7f651e0b89cf3e849fa9a",
+          "message": "Allow arbitrary attribute names using string literal syntax (#707)\n\nAdded a new PropType variant and the corresponding updates to parsing\r\nand dom manipulation. Added 1 case into 'element-pass' test using such\r\nquoted-string attribute.",
+          "timestamp": "2024-09-30T16:25:15+02:00",
+          "tree_id": "6be4d97a80b1b402ad20de109859173f68697420",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/bb4388363ac4e93f2aa7f651e0b89cf3e849fa9a"
+        },
+        "date": 1727706484211,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 32479,
+            "range": "± 557",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 107869,
+            "range": "± 2623",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 14661,
+            "range": "± 1462",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 20519,
+            "range": "± 29191",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 1263,
+            "range": "± 248",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 207949,
+            "range": "± 75787",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1031,
+            "range": "± 18",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 22785,
+            "range": "± 95",
             "unit": "ns/iter"
           }
         ]
