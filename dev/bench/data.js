@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727775499194,
+  "lastUpdate": 1727776984631,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -31349,6 +31349,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 22523,
             "range": "± 135",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7b9fb2569571b1a299e8ef14e843611aa5a8de7f",
+          "message": "Add re-exports back to `sycamore-web` (#708)\n\n* Add re-exports back to sycamore-web\r\n\r\nSomehow they got removed at some point (probably during view v2)\r\n\r\n* Remove extra dependencies in examples",
+          "timestamp": "2024-10-01T12:00:16+02:00",
+          "tree_id": "807834306b2c15c83ba6c5a9f27e9a654e2320a6",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/7b9fb2569571b1a299e8ef14e843611aa5a8de7f"
+        },
+        "date": 1727776983248,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 36227,
+            "range": "± 457",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 108385,
+            "range": "± 987",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 13264,
+            "range": "± 702",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 19631,
+            "range": "± 33998",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 1159,
+            "range": "± 213",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 209191,
+            "range": "± 96438",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1087,
+            "range": "± 16",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 22138,
+            "range": "± 169",
             "unit": "ns/iter"
           }
         ]
