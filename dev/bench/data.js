@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727706485551,
+  "lastUpdate": 1727775499194,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -31277,6 +31277,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 22785,
             "range": "± 95",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "efe59320b6954f7d787961ab28ac986de32426e5",
+          "message": "Move `MaybeDyn` to `sycamore-reactive` (#705)\n\n* Add MaybDyn to sycamore-reactive\r\n\r\n* Remove sycamore-web version of MaybeDyn\r\n\r\n* Migrate to new MaybeDyn\r\n\r\n* cargo fmt\r\n\r\n* Use Into trait after all\r\n\r\n* Remove Accessor trait\r\n\r\n* Add some docs\r\n\r\n* Fix tests\r\n\r\n* Update UI tests\r\n\r\n* Add some simple tests",
+          "timestamp": "2024-10-01T11:35:31+02:00",
+          "tree_id": "a20b6f6e2241b8be75dbb4f94b235a6b0ddd038b",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/efe59320b6954f7d787961ab28ac986de32426e5"
+        },
+        "date": 1727775497753,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 37535,
+            "range": "± 4489",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 107508,
+            "range": "± 1550",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 12987,
+            "range": "± 676",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 19638,
+            "range": "± 716",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 1099,
+            "range": "± 245",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 207108,
+            "range": "± 57036",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1103,
+            "range": "± 7",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 22523,
+            "range": "± 135",
             "unit": "ns/iter"
           }
         ]
