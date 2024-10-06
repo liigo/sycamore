@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727799140454,
+  "lastUpdate": 1728243629842,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -31565,6 +31565,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 22823,
             "range": "± 124",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "kromgart@gmail.com",
+            "name": "Roman Melnik",
+            "username": "Kromgart"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d73c4f45bfc27fa6d60cd562004e2d4eeaa078f7",
+          "message": "Fix #704 - Updating the check whether a view must be dynamic. (#711)\n\n* Updating the check whether a view must be dynamic.\r\n\r\n* Finish patterns, add blocks, fix calls/methods\r\n\r\n* Updated the check in attributes generation\r\n\r\n* Use the new is_dyn check for attribute values\r\n* Allow literal method calls to be non-dynamic\r\n* Update attributes-passthrough example\r\n\r\n* Added remaining Expr variants.",
+          "timestamp": "2024-10-06T20:37:48+01:00",
+          "tree_id": "719a19079dcbee056429719109818926bc3d83f7",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/d73c4f45bfc27fa6d60cd562004e2d4eeaa078f7"
+        },
+        "date": 1728243628911,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 36330,
+            "range": "± 1038",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 103576,
+            "range": "± 3190",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 12825,
+            "range": "± 1055",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 18288,
+            "range": "± 31071",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 879,
+            "range": "± 157",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 206596,
+            "range": "± 91846",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1054,
+            "range": "± 24",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 21224,
+            "range": "± 549",
             "unit": "ns/iter"
           }
         ]
