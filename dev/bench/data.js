@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728321491293,
+  "lastUpdate": 1728321519582,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -31781,6 +31781,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 22126,
             "range": "± 92",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7272028e5ab968bdacf68604bf50ff3e9f07d336",
+          "message": "Support optional attributes (#714)\n\n* Support optional attributes\r\n\r\n* Add a wasm test\r\n\r\n* Fix example\r\n\r\n* Update UI tests",
+          "timestamp": "2024-10-07T18:15:37+01:00",
+          "tree_id": "aac435006c4369b723d0e4daa81c5398c7d5669e",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/7272028e5ab968bdacf68604bf50ff3e9f07d336"
+        },
+        "date": 1728321518120,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 38195,
+            "range": "± 333",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 108325,
+            "range": "± 1917",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 12810,
+            "range": "± 659",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 19195,
+            "range": "± 745",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 1106,
+            "range": "± 194",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 207613,
+            "range": "± 62465",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1107,
+            "range": "± 36",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 23363,
+            "range": "± 81",
             "unit": "ns/iter"
           }
         ]
