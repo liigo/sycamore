@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728243629842,
+  "lastUpdate": 1728319482302,
   "repoUrl": "https://github.com/sycamore-rs/sycamore",
   "entries": {
     "Benchmark": [
@@ -31637,6 +31637,78 @@ window.BENCHMARK_DATA = {
             "name": "ssr_medium",
             "value": 21224,
             "range": "± 549",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "37006668+lukechu10@users.noreply.github.com",
+            "name": "Luke",
+            "username": "lukechu10"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "91a172375620b101501909a70c201ce09b42cbc5",
+          "message": "Support `MaybeDyn<Option<Cow<'static, str>>>` and make some impls more flexible (#713)\n\n* Add some more impls for MaybeDyn for converting from signals\r\n\r\n* Add implementations for Option<Cow<'static, str>>\r\n\r\n* More flexible From<Signal> impl for MaybeDyn\r\n\r\n* Add a test\r\n\r\n* Fix errors",
+          "timestamp": "2024-10-07T17:41:45+01:00",
+          "tree_id": "58cc53702f7b842cbd5b0b31f0066b25168a3b9c",
+          "url": "https://github.com/sycamore-rs/sycamore/commit/91a172375620b101501909a70c201ce09b42cbc5"
+        },
+        "date": 1728319480908,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "reactivity_signals",
+            "value": 36702,
+            "range": "± 1807",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_effects",
+            "value": 108037,
+            "range": "± 3955",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_indexed",
+            "value": 13135,
+            "range": "± 697",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_map_keyed",
+            "value": 19497,
+            "range": "± 770",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "reactivity_context_deeply_nested",
+            "value": 985,
+            "range": "± 194",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "deep_creation",
+            "value": 207087,
+            "range": "± 61708",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_small",
+            "value": 1104,
+            "range": "± 10",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "ssr_medium",
+            "value": 23423,
+            "range": "± 98",
             "unit": "ns/iter"
           }
         ]
