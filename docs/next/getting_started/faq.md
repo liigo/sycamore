@@ -29,8 +29,8 @@ programming language in Stack Overflow's Developer Survey for seven years in a r
 [2019](https://insights.stackoverflow.com/survey/2019#technology-_-most-loved-dreaded-and-wanted-languages),
 [2020](https://insights.stackoverflow.com/survey/2020#most-loved-dreaded-and-wanted),
 [2021](https://insights.stackoverflow.com/survey/2021/#technology-most-loved-dreaded-and-wanted),
-and
-[2022](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages).
+[2022](https://survey.stackoverflow.co/2022/#section-most-loved-dreaded-and-wanted-programming-scripting-and-markup-languages),
+and [2023](https://survey.stackoverflow.co/2023/#section-admired-and-desired-programming-scripting-and-markup-languages).
 
 ## Is there a router?
 
